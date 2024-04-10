@@ -1,0 +1,115 @@
+/*FAQ-aboutUs*/
+main {
+    background: rgb(94, 93, 93);
+    background: linear-gradient(180deg, rgba(94, 93, 93, 0.8403010862548144) 64%, rgba(255, 255, 255, 1) 93%);
+}
+
+button {
+    cursor: pointer;
+}
+
+/*FAQ Section*/
+.faqImg {
+    max-height: 40rem;
+    max-width: auto;
+}
+
+.container-faq {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    border-radius: 12px;
+    background: #D9D9D9;
+}
+
+.box button {
+    font-size: 30px;
+}
+
+.box-content {
+    margin: 10px;
+    padding: 10px;
+}
+
+#a1,
+#a2,
+#a3 {
+    color: #4f4e4e;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    align-items: center;
+}
+
+.support button {
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*About-Us Section*/
+.aboutUsImg {
+    max-height: 30rem;
+    max-width: auto;
+}
+
+/*Team Section*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    row-gap: 50px;
+    column-gap: 100px;
+    margin: 50px;
+}
+
+.grid-item {
+    background-color: black;
+    color: white;
+}
+
+.grid-item img {
+    max-width: 200px;
+}
+
+.social-networks img {
+    width: 30px;
+}
+
+.container {
+    padding: 20px;
+    margin: 40px;
+    background-color: #110053;
+    color: white;
+    border-radius: 12px;
+}
+
+/*End of FAQ-aboutUs*/
+
+
+@media (max-width:400px) {
+    .container-faq{
+        display: block;
+        
+    }
+}
