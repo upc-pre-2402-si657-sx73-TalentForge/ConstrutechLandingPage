@@ -3,7 +3,7 @@ body {
     background: linear-gradient(180deg, rgba(94, 93, 93, 0.8403010862548144) 64%, rgba(255, 255, 255, 1) 93%);
 }
 
-/*FAQ-aboutUs*/
+/*FAQ*/
 button {
     cursor: pointer;
 }
@@ -68,43 +68,6 @@ button {
     color: white;
     font-size: 20px;
     padding: 20px;
-}
-
-/*About-Us Section*/
-.aboutUsImg {
-    max-height: 30rem;
-    max-width: auto;
-}
-
-/*Team Section*/
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    text-align: center;
-    row-gap: 50px;
-    column-gap: 100px;
-    margin: 50px;
-}
-
-.grid-item {
-    background-color: black;
-    color: white;
-}
-
-.grid-item img {
-    max-width: 200px;
-}
-
-.social-networks img {
-    width: 30px;
-}
-
-.container {
-    padding: 20px;
-    margin: 40px;
-    background-color: #110053;
-    color: white;
-    border-radius: 12px;
 }
 
 /*End of FAQ-aboutUs*/
