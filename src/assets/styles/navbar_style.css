@@ -1,0 +1,221 @@
+.table{
+    --bs-table-bg: transparent !important;
+}
+
+body {
+    background-image: url("../images/background-image-main.png");
+    background-repeat: repeat-y; /* Repetir verticalmente */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el cuerpo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+}
+.nav_container {
+    padding: 20px; /* Espaciado interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px; /* Tamaño del logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+    margin-left: 20px; /* Espaciado entre elementos de la lista */
+}
+
+
+.nav-links a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none;
+    font-size: 18px; /* Tamaño del texto */
+}
+
+.nav-btn {
+    background-color: #0734d8; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-premium-btn{
+    background-color: #49a24c; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Un espacio para el logo, otro para los enlaces y otro para el botón */
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        text-align: left; /* Cambia el texto a la izquierda en pantallas más pequeñas */
+    }
+
+    .hero-btn {
+        position: static; /* Cambia la posición del botón a estática para que fluya con el texto */
+        display: block;
+        margin-top: 20px; /* Agrega espacio entre el botón y el texto en pantallas más pequeñas */
+        margin-left: auto; /* Centra el botón horizontalmente en pantallas más pequeñas */
+        margin-right: 20px; /* Agrega espacio a la derecha del botón en pantallas más pequeñas */
+    }
+}
+.hero-btn {
+    background-color: #0734d8; /* Color de fondo del botón */
+    margin-left: auto; /* Mueve el botón a la izquierda */
+    border: none;
+    color: white;
+    padding: 5px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.hero-content{
+    position: relative;
+    text-align: right; /* Alinea el texto a la derecha */
+    & h1{
+        letter-spacing: 1px;
+        font-size: 4.1em;
+        margin-bottom: 50px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+    & p {
+        font-size: 23px;
+        margin-bottom: 70px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+}
+
+.container_intro {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una fila */
+}
+
+.intro_up {
+    margin-top: 300px;
+    margin-bottom: 50px;
+    flex-basis: 100%; /* Ocupa todo el ancho */
+    text-align: center; /* Alinea el texto al centro */
+    & h1{
+        letter-spacing: 1px;
+        font-size: 4.1em;
+        margin-bottom: 50px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+    & p {
+        font-size: 23px;
+        margin-bottom: 70px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+}
+
+.img-izq {
+    flex: 1; /* Ocupa todo el espacio restante */
+    margin-top: 130px;
+    max-width: 50%; /* Limita el ancho */
+    text-align: right; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Ajusta el margen derecho para separarla de las otras imágenes */
+}
+
+.img-derecha {
+    text-align: right; /* Alinea las imágenes a la derecha */
+}
+
+.img-derecha img {
+    display: block; /* Para asegurar que las imágenes no tengan espacios extra */
+    margin-top: 40px; /* Agrega espacio entre las imágenes */
+}
+
+.intro_under {
+    margin-top: 100px;
+    flex-basis: 100%; /* Ocupa todo el ancho */
+    text-align: center; /* Alinea el texto al centro */
+    & h1{
+        letter-spacing: 1px;
+        font-size: 4.1em;
+        margin-bottom: 50px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+    & p {
+        font-size: 23px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+}
+
+.container-demonstration {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    & p{
+        font-size: 23px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+    & h2{
+        letter-spacing: 1px;
+        font-size: 2em;
+        margin-bottom: 50px;
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #fefeff
+    }
+}
+
+.demonstration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-row-demonstration,
+.second-row-demonstration {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-right: 80px; /* Espacio entre las imágenes */
+}
+
+.first-row-demonstration p,
+.second-row-demonstration p {
+    margin-top: 10px; /* Espacio entre las imágenes y los párrafos */
+}

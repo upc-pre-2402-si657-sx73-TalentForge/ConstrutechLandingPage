@@ -1,0 +1,238 @@
+main{
+    background: rgb(94,93,93);
+    background: linear-gradient(180deg, rgba(148, 147, 147, 0.84) 64%, rgb(179, 177, 177) 93%);
+}
+header,
+main,
+footer{
+    width: 100%;
+}
+
+.nav_container {
+    padding: 10px; /* Espaciado interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(160, 154, 154);
+}
+
+.nav-logo img {
+    width: 50px; /* Tamaño del logo */
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+    margin-left: 20px; /* Espaciado entre elementos de la lista */
+}
+
+
+.nav-links a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none;
+    font-size: 18px; /* Tamaño del texto */
+}
+
+.nav-btn {
+    background-color: #0734d8; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-premium-btn{
+    background-color: #49a24c; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Un espacio para el logo, otro para los enlaces y otro para el botón */
+    align-items: center;
+}
+/*About-Us Section*/
+#aboutUs{
+    padding-top: 20px;
+}
+.about-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-us-text {
+    max-width: 50%;
+}
+
+.aboutUsImg {
+    max-height: 30rem;
+    max-width: auto;
+}
+
+/*Team Section*/
+.grid-container {
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template: 1fr 1fr / 1fr 1fr;
+    text-align: center;
+    row-gap: 50px;
+    column-gap: 100px;
+    margin: 50px;
+}
+
+.grid-item {
+    /* background-color: black; */
+    color: white;
+    display: block;
+    align-content: center;
+}
+
+.grid-item-container {
+    display: inline-block;
+    padding: 20px 60px 20px;
+    background-color: black;
+    max-width: min-content;
+}
+
+.grid-item img {
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.social-networks img {
+    width: 30px;
+}
+
+.containerDestacamos {
+    padding: 20px;
+    margin: 40px;
+    background-color: #110053;
+    color: white;
+    border-radius: 12px;
+}
+
+.container-text {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center
+}
+
+.support-text {
+    max-width: 30%;
+}
+
+@media (max-width:950px) {
+    .about-us-container {
+        display: block;
+        text-align: center;
+
+    }
+
+    .about-us-text {
+        display: inline-block;
+        text-align: center;
+        max-width: 700px;
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .container {
+        display: block;
+    }
+
+    .container-text {
+
+        display: block;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .container-text div {
+        display: inline;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+/*Testimonials Section*/
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.card-content{
+    height: 300px;
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+.stars{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    height: 70px;
+    
+}
+
+/*Blogs Section*/
+.blogs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blog{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.blog-text{
+    text-align: center;
+    background-color: #D9D9D9;
+}
+.blog-image{
+    width: max-content;
+}
+.logo{
+    width: 50px;
+    height: auto;
+}
