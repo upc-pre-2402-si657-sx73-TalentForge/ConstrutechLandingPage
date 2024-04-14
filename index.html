@@ -3,99 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From Zero</title>
-    <link rel="stylesheet" href="./assets/styles/navbar_style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/assets/styles/navbar_style.css">
+    <link rel="stylesheet" href="./src/assets/styles/footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=Poppins:wght@600&display=swap');
-    </style>
 </head>
 <body>
-<header>
     <nav class="nav_container">
-        <a href="#hero" class="nav-logo">
-            <img src="assets/images/logo.png" alt="">
-        </a>
+        <a href="index.html" class="nav-logo">
+            <img src="./src/assets/images/logo.png" alt="">
+         </a>
         <div class="nav-menu">
             <button class="nav-premium-btn" href="#Suscriptions">Premium</button>
             <ul class="nav-links">
-                <li><a href="#About_Us">Sobre Nosotros</a></li>
-                <li><a href="#Web_Maker">Creador de Páginas Web</a></li>
-                <li><a href="#Web_Developing">Desarrollo de Sitio Web</a></li>
+                <li><a href="#proyectos">Proyectos Destacados</a></li>
+                 <li><a href="#faq">Preguntas Frecuentes</a></li>
+                 <li><a href="about-us.html">Sobre Nosotros</a></li>
+                 <li><a href="membership.html">Membresias</a></li>
             </ul>
             <button class="nav-btn">Ingresar</button>
         </div>
     </nav>
-</header>
-<main>
-    <section class="hero" id="hero">
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Proyecto de software desde cero</h1>
+                    <p>Con ayuda de un equipo de programadores <br> crea tu proyecto de software desde cero.</p>
+                    <button class="hero-btn" id="hero-btn">Accede</button>
+                </div>
+            </div>
+        </section>
+        <section class = "main-introduction" id="main-introduction">
+            <div class = "container_intro">
+                <div class = "intro_up">
+                    <h1 class = "title">Tu proyecto de software en un solo lugar</h1>
+                    <p>En From Zero, te proporcionamos todas las herramientas y servicios para que no requieras buscar en ningún otro lugar a la hora de crear <br>
+                        tu proyecto de software. No solo ofrecemos estos servicios, sino que también nos centramos en garantizar su<br>
+                        eficiencia y rapidez.</p>
+                </div>
+                <div class = "img-izq">
+                    <img src="./src/assets/images/image-intro-izq.png">
+                </div>
+                <div class = "img-derecha">
+                    <img src="./src/assets/images/image-intro1.png">
+                    <img src="./src/assets/images/image-intro2.png">
+                    <img src="./src/assets/images/image-intro3.png">
+                </div>
+                <div class = "intro_under">
+                    <h1 class = "title">Da tu idea de proyecto y nosotros lo haremos realidad</h1>
+                    <p>En From Zero, tu visión es nuestra misión. Comparte tus ideas de proyectos y las convertimos en realidad. <br>
+                    Nuestro equipo de expertos está listo para dar vida a tu visión</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-demonstration" id="main-demonstration">
+            <div class="container-demonstration">
+                <h2 class="title">Páginas Web y App creados</h2>
+                <div class="demonstration">
+                    <div class="first-row-demonstration" id="proyectos">
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated-demonstration.png">
+                            <p>Página de panadería</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated2-demonstration.png">
+                            <p>Página para mirar paginas</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated3-demonstration.png">
+                            <p>Página para mirar paginas</p>
+                        </div>
+                    </div>
+                    <div class="second-row-demonstration">
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated4-demonstration.png">
+                            <p>Página de viajes</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated5-demonstration.png">
+                            <p>Página de joyeria</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="./src/assets/images/image-webcreated6-demonstration.png">
+                            <p>Página de arquitectos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq">
+            <div>
+                <div class="container-faq">
+                    <div>
+                        <img class="faqImg"  src="./src/assets/images/faq-image.png" alt="Image for FAQ">
+                    </div>
+                    <div>
+                        <div style="margin: 20px;">
+                            <h1>Preguntas Frecuentes</h1>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <div>
+                                    <h2>¿En qué consiste la creación de páginas web y app con from zero?</h2>
+                                </div>
+                                <div id="a1" hidden>
+                                    <p>From Zero te conecta con programadores expertos en creación de proyectos</p>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <button onclick="hide('a1','buttonQ1')" id="buttonQ1">+</button>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <div>
+                                    <h2>¿Cómo son las etapas de ayuda de From Zero?</h2>
+                                </div>
+                                <div id="a2" hidden>
+                                    <ul>
+                                        <li><p>Etapa presentación de proyecto</p></li>
+                                        <li><p>Etapa de desarrollo</p></li>
+                                        <li><p>Etapa de seguimiento</p></li>
+                                        <li><p>Etapa de entrega</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <button onclick="hide('a2','buttonQ2')" id="buttonQ2">+</button>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <div>
+                                    <h2>¿Qué servicios complementarios ofrece From Zero?</h2>
+                                </div>
+                                <div id="a3" hidden>
+                                    <p>La plataforma ofrece...</p>
+                                    <ul>
+                                        <li>
+                                            <p>Sistema de gestión de proyectos</p>
+                                        </li>
+                                        <li>
+                                            <p>Facilidad en el proceso de contratación y reclutamiento</p>
+                                        </li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <button onclick="hide('a3','buttonQ3')" id="buttonQ3">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="support">
+                    <div>
+                        <h1>Necesitas soporte al cliente?</h1>
+                        <h3>Escribenos y soporte técnico se pondrá en contacto.</h3>
+                    </div>
+                    <div>
+                        <button>Ingresar</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+    
+            </div>
+        </section>
+        <script src="./src/assets/scripts/scripts.js"></script>
+    </main>
+    <footer class="footer">
         <div class="container">
-            <div class="hero-content">
-                <h1>Proyecto de software desde cero</h1>
-                <p>Con ayuda de un equipo de programadores <br> crea tu proyecto de software desde cero.</p>
-                <button class="hero-btn" id="hero-btn">Accede</button>
-            </div>
-        </div>
-    </section>
-    <section class = "main-introduction" id="main-introduction">
-        <div class = "container_intro">
-            <div class = "intro_up">
-                <h1 class = "title">Tu proyecto de software en un solo lugar</h1>
-                <p>En From Zero, te proporcionamos todas las herramientas y servicios para que no requieras buscar en ningún otro lugar a la hora de crear <br>
-                    tu proyecto de software. No solo ofrecemos estos servicios, sino que también nos centramos en garantizar su<br>
-                    eficiencia y rapidez.</p>
-            </div>
-            <div class = "img-izq">
-                <img src="assets/images/image-intro-izq.png">
-            </div>
-            <div class = "img-derecha">
-                <img src="assets/images/image-intro1.png">
-                <img src="assets/images/image-intro2.png">
-                <img src="assets/images/image-intro3.png">
-            </div>
-            <div class = "intro_under">
-                <h1 class = "title">Da tu idea de proyecto y nosotros lo haremos realidad</h1>
-                <p>En From Zero, tu visión es nuestra misión. Comparte tus ideas de proyectos y las convertimos en realidad. <br>
-                Nuestro equipo de expertos está listo para dar vida a tu visión</p>
-            </div>
-        </div>
-    </section>
-    <section class="main-demonstration" id="main-demonstration">
-        <div class="container-demonstration">
-            <h2 class="title">Páginas Web y App creados</h2>
-            <div class="demonstration">
-                <div class="first-row-demonstration">
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated2-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated3-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                </div>
-                <div class="second-row-demonstration">
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated4-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated5-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/images/image-webcreated6-demonstration.png">
-                        <p>Página de panadería</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <a href="#hero" class="nav-logo">
+                <img src="./src/assets/images/logo.png" alt="">
+            </a>
 
-</main>
+            <div class="footer-row">
+
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="about-us.html">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Cuenta</h4>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Mis paginas</a></li>
+                        <li><a href="#">Crear cuenta</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contactanos</h4>
+                    <ul>
+                        <li><a href="#">Servicio al cliente</a></li>
+                        <li><a href="#">Servicio Tecnico</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="nav-logo2">
+
+            <a href="#hero">
+                <img src="./assets/images/imagen_contacto.png" alt="">
+            </a>
+
+        </div>
+
+    </footer>
 </body>
 </html>

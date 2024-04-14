@@ -3,16 +3,13 @@
 }
 
 body {
-
     background-image: url("../images/background-image-main.png");
     background-repeat: repeat-y; /* Repetir verticalmente */
     background-size: cover; /* Hace que la imagen de fondo cubra todo el cuerpo */
     background-position: center; /* Centra la imagen de fondo */
     background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
 }
-
 .nav_container {
-
     padding: 20px; /* Espaciado interno */
     display: flex;
     justify-content: space-between;
@@ -20,7 +17,7 @@ body {
 }
 
 .nav-logo img {
-    width: 100px; /* Tamaño del logo */
+    width: 80px; /* Tamaño del logo */
 }
 
 .nav-links {

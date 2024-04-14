@@ -9,10 +9,8 @@
 body{
     width: 100%;
     height: 100vh;
-    
     font-family: sans-serif;
     text-transform: capitalize;
-
 }
 
 nav{
@@ -32,10 +30,7 @@ h1{
 
 ul li{
     display: block;
-    padding: 0px 20px;
 }
-
-
 
 a{
     color: #595959;
@@ -55,7 +50,7 @@ a:hover{
 
 .footer {
     background-color: #242628;
-    padding: 80px 0;
+    padding-top: 20px;
 }
 
 .footer-row {
@@ -70,7 +65,7 @@ a:hover{
 
 .footer-links h4 {
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 25px;
     font-weight: 500;
     padding-bottom: 10px;
@@ -84,23 +79,17 @@ a:hover{
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
-
 }
-
-
 .footer-links ul li a:hover {
     color: #FFFFFF;
     padding-left: 6px;
-    
 }
 
 .nav-logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
-
 }
 
 .nav-logo2 {
     text-align: right;
-
 }
