@@ -8,10 +8,6 @@ main{
     background: linear-gradient(180deg, rgba(94,93,93,0.8403010862548144) 64%, rgb(179, 177, 177) 93%);    
 }
 .nav_container {
-    padding: 10px; /* Espaciado interno */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgb(160, 154, 154);
 }
 
