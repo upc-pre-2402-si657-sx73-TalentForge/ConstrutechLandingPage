@@ -30,15 +30,11 @@
         </div>
     </nav>
     <main>
-        <section class="hero" id="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>Proyecto de software desde cero</h1>
-                    <p>Con ayuda de un equipo de programadores <br> crea tu proyecto de software desde cero.</p>
-                    <button class="hero-btn" id="hero-btn">Accede</button>
-                </div>
-            </div>
-        </section>
+        <div class="hero-content">
+            <h1>Proyecto de software desde cero</h1>
+            <p>Con ayuda de un equipo de programadores <br> crea tu proyecto de software desde cero.</p>
+            <button class="hero-btn" id="hero-btn">Accede</button>
+        </div>
         <section class = "main-introduction" id="main-introduction">
             <div class = "container_intro">
                 <div class = "intro_up">
@@ -47,14 +43,19 @@
                         tu proyecto de software. No solo ofrecemos estos servicios, sino que también nos centramos en garantizar su<br>
                         eficiencia y rapidez.</p>
                 </div>
-                <div class = "img-izq">
-                    <img src="./src/assets/images/image-intro-izq.png">
-                </div>
-                <div class = "img-derecha">
-                    <img src="./src/assets/images/image-intro1.png">
-                    <img src="./src/assets/images/image-intro2.png">
-                    <img src="./src/assets/images/image-intro3.png">
-                </div>
+
+                <ul class="intro_middle">
+                    <li class = "parte-izquierda">
+                        <img src="./src/assets/images/image-intro-izq.png">
+                    </li>
+                    <li class = "parte-derecha">
+                        <p>Visibilidad de proyectos por parte del equipo de desarrolladores</p>
+                        <p>Soporte en cada paso del proyecto</p>
+                        <p>Ofrecemoss seguridad y desarrolladores confiables</p>
+                        <p>Disposicon de una red de desarrolladores freelancer expertos</p>
+                    </li>
+                </ul>
+                
                 <div class = "intro_under">
                     <h1 class = "title">Da tu idea de proyecto y nosotros lo haremos realidad</h1>
                     <p>En From Zero, tu visión es nuestra misión. Comparte tus ideas de proyectos y las convertimos en realidad. <br>
@@ -62,41 +63,37 @@
                 </div>
             </div>
         </section>
-        <section class="main-demonstration" id="main-demonstration">
-            <div class="container-demonstration">
-                <h2 class="title">Páginas Web y App creados</h2>
-                <div class="demonstration">
-                    <div class="first-row-demonstration" id="proyectos">
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated-demonstration.png">
-                            <p>Página de panadería</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated2-demonstration.png">
-                            <p>Página para mirar paginas</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated3-demonstration.png">
-                            <p>Página para mirar paginas</p>
-                        </div>
-                    </div>
-                    <div class="second-row-demonstration">
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated4-demonstration.png">
-                            <p>Página de viajes</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated5-demonstration.png">
-                            <p>Página de joyeria</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="./src/assets/images/image-webcreated6-demonstration.png">
-                            <p>Página de arquitectos</p>
-                        </div>
-                    </div>
+
+        <div class="container-demonstration">
+            <h2 class="title">Páginas Web y App creados</h2>
+            <div class="first-row-demonstration" id="proyectos">
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated-demonstration.png">
+                    <p>Página de panadería</p>
+                </div>
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated2-demonstration.png">
+                    <p>Página para mirar paginas</p>
+                </div>
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated3-demonstration.png">
+                    <p>Página para mirar paginas</p>
+                </div>
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated4-demonstration.png">
+                    <p>Página de viajes</p>
+                </div>
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated5-demonstration.png">
+                    <p>Página de joyeria</p>
+                </div>
+                <div class="image-container">
+                    <img src="./src/assets/images/image-webcreated6-demonstration.png">
+                    <p>Página de arquitectos</p>
                 </div>
             </div>
-        </section>
+        </div>
+
         <section id="faq">
             <div>
                 <div class="container-faq">
