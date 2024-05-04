@@ -1,0 +1,63 @@
+.nav_container {
+    padding: 20px; /* Espaciado interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px; /* Tamaño del logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+    margin-left: 20px; /* Espaciado entre elementos de la lista */
+}
+
+
+.nav-links a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none;
+    font-size: 18; /* Tamaño del texto */
+}
+
+.nav-btn {
+    background-color: #0734d8; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-premium-btn{
+    background-color: #49a24c; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Un espacio para el logo, otro para los enlaces y otro para el botón */
+    align-items: center;
+}
