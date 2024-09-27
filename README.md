@@ -1,2 +1,2 @@
-# FromZero-LandingPage
-Landing Page de la aplicación From Zero desarrollada por SiteForge
+# TalentForge-LandingPage
+Landing Page de la aplicación TalentForge desarrollada por Code Bridge
